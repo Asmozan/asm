@@ -1,0 +1,5 @@
+vim add.asm
+nasm -f elf64 -o add.o add.asm 
+gcc -o add add.o
+./add 
+
